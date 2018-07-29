@@ -12,7 +12,7 @@ print ("\n\n ---  WELCOME TO KRIS CYBER ARMY FATNER  ---\n")
 
 cab = KRIS()
 #cab = KRIS(authTokenkris="")
-cab.log("YOUR TOKEN : {}".format(str(cab.authToken)))
+cab.log("Ev1vxaOLgIA96PKXcse6.HQh4RpqRYzqfruxsRHZtfG.ePhiSeBMP8aaSP+vnKZ2DPvPz6upa2QB4RpoXEp1ZYY= : {}".format(str(cab.authToken)))
 channel = KRISChannel(cab,cab.server.CHANNEL_ID['LINE_TIMELINE'])
 cab.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
 
@@ -26,7 +26,7 @@ KRIS = KRISPoll(cab)
 kris = [cab]
 mid = cab.profile.mid
 krisBot=[mid]
-Owner=["u35459f1e84ad208cc56025c259cb1628","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+Owner=["u86a1f8acf42bc994054545d2ae1cd316"]
 krisFatner = krisBot + kris + Owner
 
 contact = cab.getProfile()
